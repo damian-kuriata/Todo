@@ -12,6 +12,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 DATABASES = {
     # Use SQLITE for testing
+    'default': {
+
+    },
     'TEST': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'testing.sqlite'
